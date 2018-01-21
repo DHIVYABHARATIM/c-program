@@ -4,7 +4,7 @@ void main()
 int a,b,c;
 printf("enter the minute");
 scanf("%d",&a);
-while(a>=60)
+while(a>=0)
 {
 b=a/60;
   c=a%60;
