@@ -18,7 +18,10 @@ temp=a[i];
 a[i]=a[j];
 a[j]=temp;
 }
+  for(j=0;j<=n;j++)
+  {
 printf("%d",a[j]);
+  }
 printf("to find the median element");
 n=(n+1)/2-1;
 printf("%d",a[n]);
