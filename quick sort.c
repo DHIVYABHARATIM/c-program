@@ -22,6 +22,9 @@ a[j]=temp;
   {
 printf("%d",a[j]);
 }
+  printf("median element");
+  n=(n+1)/2-1;
+  printf("%d",&a[n]);
 }
 }
 }
