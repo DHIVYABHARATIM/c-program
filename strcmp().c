@@ -5,7 +5,7 @@ int c,d;
 char a[30],b[30];
 printf("enter the strings");
 scanf("%s",a);
-sacnf("%s",b);
+scanf("%s",b);
 c=strlen(a);
 d=strlen(b);
 {
