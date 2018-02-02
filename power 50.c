@@ -2,9 +2,10 @@
 
 int main(void)
 {
-int n;
+int n,m;
 scanf("%d",&n);
-if(n%2==0)
+m=(n&(n-1));
+if(m==0)	
 printf("yes");
 else
 printf("no");
