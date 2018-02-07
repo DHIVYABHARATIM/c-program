@@ -8,7 +8,7 @@ void main()
  len = strlen(str);
  for(i=0;i<len;i++)
  {
- if(str[i] >= o&& str[i] <= 9)    
+ if(str[i] >= 0&& str[i] <= 9)    
  {
  count++;
  }
