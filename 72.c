@@ -12,7 +12,7 @@ int main(void)
   {
     printf("yes,it contains vowel");
   }
-  }
+  
   else
   printf("it does not contains a vowel");
 }
