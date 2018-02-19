@@ -1,0 +1,14 @@
+#include"stdio.h"
+void main()
+{
+  int n,l,r;
+  printf("enter the mid number");
+  scanf("%d",&n);
+  printf("enter the range numbers\n");
+  scanf("%d%d",&l,&r);
+  if((n>=l)&&(n<=r))
+  printf("yes");
+  else
+  printf("no");
+  
+}
