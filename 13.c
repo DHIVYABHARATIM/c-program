@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  int i,a;
+  int a;
   printf("enter the num");
   scanf("%d",&a);
     if(a%13==0)
