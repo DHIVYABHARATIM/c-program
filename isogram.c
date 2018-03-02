@@ -4,9 +4,18 @@
 int main(void)
 {
   char a[50];
-  int i,j,l,count=0;
-  printf("enter the string");
+  int i,j,l,count=0,b[10],c,temp=0;
   scanf("%s",a);
+  for(i=0;i<3;i++)
+  {
+    scanf("%d",&b[10]);
+    if(b[i]==b[j])
+    temp=1;
+  }
+  if(temp==0)
+    printf("yes");
+  else
+  printf("no");
   l=strlen(a);
   for(i=0;i<=l;i++)
   {
@@ -24,4 +33,6 @@ int main(void)
   {
   printf("yes");
     break;
-}}}
+}}
+  
+}
